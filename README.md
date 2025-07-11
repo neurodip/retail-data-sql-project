@@ -69,10 +69,16 @@ A complete data quality and analysis project using a real-world e-commerce datas
 **RetailSQLProject/**
 |── README.md
 ├── data/
-│   └── online_retail_II.csv
+│   └── online_retail_II.csv (Dataset is zipped due to GitHub’s file size limit (25MB+)
 ├── sql/
 │   ├── create_tables.sql
 │   ├── cleaning_steps.sql
 │   └── analysis_queries.sql
 ├── report/
 │   └── retail_data_report.pdf
+
+---
+## Conclusion
+
+This project showcases real-world SQL skills — from raw data cleaning to meaningful business analysis.  
+The approach can be replicated for similar transactional datasets in retail, finance, and e-commerce domains.
