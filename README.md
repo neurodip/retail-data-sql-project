@@ -67,15 +67,15 @@ A complete data quality and analysis project using a real-world e-commerce datas
   ---
 ## Project Structure
 Retail_SQL_Project/
-├── README.md → Project Documentation
+├── README.md                   → Project Documentation
 ├── data/
-│ └── online_retail_II.csv → Zipped due to GitHub’s 25MB file limit
+│ └── online_retail_II.csv      → Zipped due to GitHub’s 25MB file limit
 ├── sql/
-│ ├── create_tables.sql → Table creation script
-│ ├── cleaning_steps.sql → Data cleaning SQL steps
-│ └── analysis_queries.sql → Final business analysis queries
+│ ├── create_tables.sql         → Table creation script
+│ ├── cleaning_steps.sql        → Data cleaning SQL steps
+│ └── analysis_queries.sql      → Final business analysis queries
 ├── report/
-│ └── retail_data_report.pdf → Final Project Report
+│ └── retail_data_report.pdf    → Final Project Report
 
 ## Conclusion
 
