@@ -65,7 +65,7 @@ A complete data quality and analysis project using a real-world e-commerce datas
 - **Data quality issue**: Over 135K rows had missing CustomerID, ~10K duplicate rows found
 
   ---
-## SQL Files Structure
+'''## SQL Files Structure
 Retail_SQL_Project/
 ├── README.md
 ├── data/
@@ -75,7 +75,7 @@ Retail_SQL_Project/
 │   ├── cleaning_steps.sql
 │   └── analysis_queries.sql
 ├── report/
-│   └── retail_data_report.pdf
+│   └── retail_data_report.pdf'''
 
 ---
 ## Conclusion
