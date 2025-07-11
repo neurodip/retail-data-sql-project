@@ -66,7 +66,7 @@ A complete data quality and analysis project using a real-world e-commerce datas
 
   ---
 ## Project Structure
-'''Retail_SQL_Project/
+Retail_SQL_Project/
 ├── README.md
 ├── data/
 │   └── online_retail_II.csv
@@ -75,7 +75,7 @@ A complete data quality and analysis project using a real-world e-commerce datas
 │   ├── cleaning_steps.sql
 │   └── analysis_queries.sql
 ├── report/
-│   └── retail_data_report.pdf'''
+│   └── retail_data_report.pdf
  
 ## Conclusion
 
