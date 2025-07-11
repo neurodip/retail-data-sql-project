@@ -65,18 +65,18 @@ A complete data quality and analysis project using a real-world e-commerce datas
 - **Data quality issue**: Over 135K rows had missing CustomerID, ~10K duplicate rows found
 
   ---
-## SQL Files Structure
+## Project Structure
 
-Retail_SQL_Project/
-├── README.md
-├── data/
-│ └── online_retail_II.csv (Dataset is zipped due to GitHub’s file size limit 25MB+)
-├── sql/
-│ ├── create_tables.sql
-│ ├── cleaning_steps.sql
-│ └── analysis_queries.sql
-├── report/
-│ └── retail_data_report.pdf
+HR_Analytics_Python_Project/  
+├── README.md                     → Project Documentation  
+├── data/  
+│   └── HR_Attrition.csv          → HR Employee Dataset  
+├── notebooks/  
+│   └── HR_Analytics.ipynb        → Main Analysis & Visualizations  
+├── output/  
+│   └── graphs/                   → Saved Graphs (optional, not uploaded)  
+├── report/  
+│   └── HR_Attrition_Report.pdf   → Final Business Report  
 
 ---
 ## Conclusion
