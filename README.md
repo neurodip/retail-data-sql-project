@@ -69,13 +69,13 @@ A complete data quality and analysis project using a real-world e-commerce datas
 HR_Analytics_Python_Project/  
 ├── README.md                     → Project Documentation  
 ├── data/  
-│   └── HR_Attrition.csv          → HR Employee Dataset  
-├── notebooks/  
-│   └── HR_Analytics.ipynb        → Main Analysis & Visualizations  
-├── output/  
-│   └── graphs/                   → Saved Graphs (optional, not uploaded)  
+│   └── online_retail_II.csv          → HR Employee Dataset  
+├── sql/
+|   ├── create_tables.sql           → SQL script to create base tables
+|   ├── cleaning_steps.sql         → Data cleaning queries
+│   └── analysis_queries.sql        → Business analysis queries                    
 ├── report/  
-│   └── HR_Attrition_Report.pdf   → Final Business Report
+│   └── retail_data_Report.pdf   → Final Project Report
 ## Conclusion
 
 This project showcases real-world SQL skills — from raw data cleaning to meaningful business analysis.  
