@@ -1,0 +1,78 @@
+# Online Retail Data Cleaning & Analysis Project
+
+A complete data quality and analysis project using a real-world e-commerce dataset. The goal was to clean messy transactional data and generate analysis-ready output to help businesses make informed decisions.
+
+---
+##  Project Objective
+- Load raw retail transaction data from CSV.
+- Clean and structure the dataset using SQL.
+- Remove missing, duplicate, and invalid entries.
+- Perform SQL-based business analysis (top-selling products, revenue trends, etc.)
+---
+##  Tools & Technologies Used
+- **Database**: MySQL 8+ (Workbench + CLI)
+- **Language**: SQL (DML, Aggregates, GROUP BY, Joins)
+- **Data Source**: Kaggle - Online Retail II Dataset
+- **Others**: Excel/Notepad (for pre-checking), UTF-8 compatible file
+
+---
+
+##  Dataset Overview
+
+| Attribute              | Description                             |
+|------------------------|-----------------------------------------|
+| InvoiceNo              | Invoice number (includes returns)       |
+| StockCode              | Product code                            |
+| Description            | Product name                            |
+| Quantity               | Number of products sold                 |
+| InvoiceDate            | Date and time of purchase               |
+| UnitPrice              | Price per item                          |
+| CustomerID             | ID of the customer                      |
+| Country                | Country of purchase                     |
+
+- File Used: online_retail_II.csv
+- Original Rows: ~1,067,000
+- Final Cleaned Rows: ~910,000
+
+---
+##  Data Cleaning Summary
+
+| Step                            | Description |
+|---------------------------------|-------------|
+| Duplicate Removal	              |Removed all exact duplicate rows|
+| NULL Removal (CustomerID)	      |Deleted rows without Customer ID|
+| Invalid Values Removed	      |Deleted rows with Quantity ≤ 0 or UnitPrice ≤ 0|
+| NULL Descriptions Replaced	  |Replaced NULL descriptions with 'Unknown Product'|
+| Created Clean Table	          |Stored all cleaned data in retail_cleaned table|
+
+---
+##  Key Analysis Performed
+
+- Unique customer count
+- Top 10 products by quantity sold
+- Top 10 products by total revenue
+- Top countries by number of transactions
+- Monthly sales trends
+
+---
+
+##  Insights Highlights
+
+- **Most sold product** WORLD WAR 2 GLIDERS
+- **Highest revenue product**: Manual
+- **Top country**: United Kingdom
+- **Peak sales period**: November & December
+- **Data quality issue**: Over 135K rows had missing CustomerID, ~10K duplicate rows found
+
+  ---
+##  SQL Files Structure
+**RetailSQLProject/**
+|── README.md
+├── data/
+│   └── online_retail_II.csv
+├── sql/
+│   ├── create_tables.sql
+│   ├── cleaning_steps.sql
+│   └── analysis_queries.sql
+├── report/
+│   └── retail_data_report.pdf
