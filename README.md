@@ -66,7 +66,7 @@ A complete data quality and analysis project using a real-world e-commerce datas
 
   ---
 ##  SQL Files Structure
-**RetailSQLProject/**
+RetailSQLProject/
 |── README.md
 ├── data/
 │   └── online_retail_II.csv (Dataset is zipped due to GitHub’s file size limit (25MB+)
