@@ -75,7 +75,7 @@ A complete data quality and analysis project using a real-world e-commerce datas
 │ ├── cleaning_steps.sql → Data cleaning queries
 │ └── analysis_queries.sql → Business analysis queries
 ├── report/
-│ └── retail_data_report.pdf → Final Project Report ```   
+│ └── retail_data_report.pdf → Final Project Report    
  
 ## Conclusion
 
