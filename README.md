@@ -76,9 +76,8 @@ A complete data quality and analysis project using a real-world e-commerce datas
 │ └── analysis_queries.sql → Business analysis queries
 ├── report/
 │ └── retail_data_report.pdf → Final Project Report
- 
----
-## Conclusion
+```
+##  Conclusion
 
 This project showcases real-world SQL skills — from raw data cleaning to meaningful business analysis.  
 The approach can be replicated for similar transactional datasets in retail, finance, and e-commerce domains.
